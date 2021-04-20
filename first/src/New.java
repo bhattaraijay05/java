@@ -21,7 +21,7 @@ public class New {
         System.out.println("Enter the second number");
         int b = scan.nextInt();
         try {
-            System.out.println("The addition is " + (a / b));
+            System.out.println("The division is " + (a / b));
         } catch (Exception e) {
             System.out.println(e);
         }
