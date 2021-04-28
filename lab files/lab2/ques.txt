@@ -16,3 +16,10 @@ The class should have the following constructor and other methods.
 • Accelerate method should add 5 to the speed field each time it is called.
 • Brake method should subtract 5 from the speed field each time it is called.
 Demonstrate the class in a program that creates a Car object, and then calls the accelerate method five times. After each call to the accelerate method, get the current speed of the car and display it. Call the brake method five times. After each call to the brake method, get the current speed of the car and display it.
+
+Identify the type of inheritance in the given diagram. Create a class A with two integer member variables that are private, two float variables that are protected and two integer variables that are public. Let class B inherit class A and class C and Class D are inherited from class B. Write appropriate methods to illustrate the following
+i)	Usage of super keyword
+ii)	Function overriding
+iii)	Default constructors
+iv)	Parameterized constructors
+v)make a method not to be over ridden and a class not be inherited further
