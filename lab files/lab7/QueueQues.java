@@ -15,13 +15,8 @@ class QueueTest<T> {
         else if (front == rear) {
             front = rear = -1;
         } else {
-            System.out.println(Q);
-            System.out.println(front);
-            System.out.println(rear);
-            // Q.removeFirst();
-            rear++;
-            rear++;
-            System.out.println(rear);
+            Q.removeFirst();
+
         }
     }
 
