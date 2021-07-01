@@ -126,22 +126,6 @@ class D extends B {
 
 public class Data {
     public static void main(String[] args) {
-        // A a11 = new A();
-        // B b11 = new B();
-        // System.out.println(a11.a);
-        // System.out.println(b11.a);
-
-        // A a1 = new A();
-        // a1.display();
-        // B b1 = new B();
-        // // b1.notOverriden();
-        // b1.display();
-        // C c1 = new C();
-        // // c1.notOverriden();
-        // c1.display();
-        // D d1 = new D();
-        // // d1.notOverriden();
-        // d1.display();
 
         System.out.println("\nparameterized Constructor");
         A a2 = new A(1, 2, 3, 2, 7, 8);
