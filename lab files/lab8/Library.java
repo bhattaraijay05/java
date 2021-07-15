@@ -24,14 +24,5 @@ class Library {
             System.out.println(e);
         }
 
-        try {
-            FileInputStream fin = new FileInputStream("library.txt");
-            int i = 0;
-            while ((i = fin.read()) != -1) {
-                System.out.print((char) i);
-            }
-        } catch (Exception e) {
-            System.out.println(e);
-        }
     }
 }
